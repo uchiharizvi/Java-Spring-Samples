@@ -19,6 +19,8 @@
         <module>config-client</module>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>hateoas</module>
+        <module>aspects</module>
     </modules>
 
     <build>
