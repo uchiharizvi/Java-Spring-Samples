@@ -21,6 +21,7 @@
         <module>eureka-client</module>
         <module>hateoas</module>
         <module>aspects</module>
+        <module>circuit-breaker</module>
     </modules>
 
     <build>
