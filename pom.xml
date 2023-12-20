@@ -27,6 +27,9 @@
         <module>spring-jpa</module>
         <module>karate-framework</module>
         <module>redis-cache-implementation</module>
+        <module>oauth2-security</module>
+        <module>elk-logging-framework</module>
+        <module>oauth-auth-server</module>
     </modules>
 <dependencies>
         <dependency>

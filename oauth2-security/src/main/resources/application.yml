@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+      clientId: {okta client id}
+      clientSecret: {okta client secret}
+      accessTokenUri: https://{yourOktaDomain}.okta.com/oauth2/default/v1/token
+      userAuthorizationUri: https://{yourOktaDomain}.okta.com/oauth2/default/v1/authorize
+      clientAuthenticationScheme: form
+      scope: openid profile email
+    resource:
+      userInfoUri: https://{yourOktaDomain}.okta.com/oauth2/default/v1/userinfo
+      server: http://localhost:8081
+
