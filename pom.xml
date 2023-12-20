@@ -22,6 +22,9 @@
         <module>hateoas</module>
         <module>aspects</module>
         <module>circuit-breaker</module>
+        <module>spring-boot-hibernate-postgresql</module>
+        <module>kafka-producer</module>
+        <module>spring-jpa</module>
     </modules>
 
     <build>
