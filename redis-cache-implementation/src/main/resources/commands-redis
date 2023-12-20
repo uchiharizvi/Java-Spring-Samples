@@ -1,0 +1,13 @@
+install redis server on linux
+-------------------------------
+sudo apt-get update
+sudo apt install redis-server
+
+check status of redis
+-----------------------
+sudo systemctl status redis
+
+start/restart redis
+-----------------
+systemctl restart redis
+systemctl start redis

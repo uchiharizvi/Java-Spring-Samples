@@ -1,0 +1,20 @@
+redis-server.service - Advanced key-value store
+
+   Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)`
+
+   Active: active (running) since Tue 2020-01-19 10:06:30 UTC; 3min 2s ago
+
+     Docs: http://redis.io/documentation,
+
+           man:redis-server(1)
+
+ Main PID: 5410 (redis-server)
+
+    Tasks: 4 (limit: 1108)
+
+   CGroup: /system.slice/redis-server.service
+
+           └─5410 /usr/bin/redis-server 127.0.0.1:6379
+
+
+conf file : /etc/redis/redis.conf
