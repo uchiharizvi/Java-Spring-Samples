@@ -31,6 +31,8 @@
         <module>elk-logging-framework</module>
         <module>oauth-auth-server</module>
         <module>captcha-security-thymeleaf-springboot</module>
+        <module>captcha-security-thymeleaf-springboot</module>
+        <module>spring-openai</module>
     </modules>
 <dependencies>
     <dependency>

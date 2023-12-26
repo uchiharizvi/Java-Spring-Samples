@@ -1,0 +1,8 @@
+server:
+  port:
+    7072
+spring:
+  ai:
+    openai:
+      api-key:
+        "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"

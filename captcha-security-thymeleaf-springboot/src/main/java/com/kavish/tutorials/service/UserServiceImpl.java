@@ -3,12 +3,19 @@ package com.kavish.tutorials.service;
 import com.kavish.tutorials.entity.User;
 import com.kavish.tutorials.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-public class UserServiceImpl implements UserService{
-    @Autowired//TODO Check Auto wiring in detail
-    private UserRepository repository;
+@Service
+public class UserServiceImpl implements UserService {
+    //    @Autowired//TODO Check Auto wiring in detail
+    private final UserRepository repository;
+
+    public UserServiceImpl(UserRepository repository) {
+        this.repository = repository;
+    }
+
     @Override
     public void createUser(User user) {
         repository.save(user);
