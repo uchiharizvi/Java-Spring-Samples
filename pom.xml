@@ -30,6 +30,7 @@
         <module>oauth2-security</module>
         <module>elk-logging-framework</module>
         <module>oauth-auth-server</module>
+        <module>captcha-security-thymeleaf-springboot</module>
     </modules>
 <dependencies>
     <dependency>
@@ -48,6 +49,12 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <optional>true</optional>
+        <version>1.18.30</version>
+    </dependency>
 </dependencies>
     <build>
         <pluginManagement>
@@ -63,5 +70,8 @@
             </plugins>
         </pluginManagement>
     </build>
+    <properties>
+        <skipTests>true</skipTests>
+    </properties>
 
 </project>

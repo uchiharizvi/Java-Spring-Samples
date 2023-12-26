@@ -1,0 +1,14 @@
+server:
+  port :
+    8081
+
+fake:
+  api:
+    host:
+      https://reqres.in
+    base:
+      /api
+    listUsers:
+      /user?page=2
+    createUser:
+      /users
