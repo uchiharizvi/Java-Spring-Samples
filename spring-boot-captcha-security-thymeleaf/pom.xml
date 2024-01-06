@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>captcha-security-thymeleaf-springboot</artifactId>
+    <artifactId>spring-boot-captcha-security-thymeleaf</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

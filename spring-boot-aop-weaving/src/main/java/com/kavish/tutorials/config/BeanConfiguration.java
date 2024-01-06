@@ -19,10 +19,6 @@ public class BeanConfiguration {
         return new PaymentsServiceImpl(restTemplate());
     }
     @Bean
-    public PaymentsController paymentsController(){
-        return new PaymentsController(paymentsService(),  restLogAspect());
-    }
-    @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
