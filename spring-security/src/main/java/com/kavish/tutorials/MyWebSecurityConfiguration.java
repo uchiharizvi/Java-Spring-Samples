@@ -1,2 +1,4 @@
-package com.kavish.tutorials;public class MyWebSecurityConfiguration {
+package com.kavish.tutorials;
+
+public class MyWebSecurityConfiguration {
 }

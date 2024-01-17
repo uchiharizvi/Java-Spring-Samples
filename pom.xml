@@ -20,7 +20,6 @@
         <module>eureka-server</module>
         <module>eureka-client</module>
         <module>hateoas</module>
-        <module>aspects</module>
         <module>circuit-breaker</module>
         <module>spring-boot-hibernate-postgresql</module>
         <module>kafka-producer</module>
@@ -30,9 +29,12 @@
         <module>oauth2-security</module>
         <module>elk-logging-framework</module>
         <module>oauth-auth-server</module>
-        <module>captcha-security-thymeleaf-springboot</module>
-        <module>captcha-security-thymeleaf-springboot</module>
+        <module>spring-boot-captcha-security-thymeleaf</module>
         <module>spring-openai</module>
+        <module>spring-security</module>
+        <module>spring-aop-weaving</module>
+        <module>spring-boot-aop-weaving</module>
+        <module>spring-boot-controller-advice</module>
     </modules>
 <dependencies>
     <dependency>
