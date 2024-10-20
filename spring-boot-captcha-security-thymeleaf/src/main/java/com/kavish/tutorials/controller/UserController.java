@@ -3,7 +3,6 @@ package com.kavish.tutorials.controller;
 import com.kavish.tutorials.entity.User;
 import com.kavish.tutorials.service.UserService;
 import com.kavish.tutorials.utils.CaptchaUtil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import cn.apiclub.captcha.Captcha;
